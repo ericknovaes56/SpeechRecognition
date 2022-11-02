@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #131313;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+#start{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 60px;
+    height:60px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 40px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    text-transform: uppercase;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#stop{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 60px;
+    height:60px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 40px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#salvar{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 60px;
+    height:60px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 40px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.output{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+    border-radius: 13px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.func{
+    display: flex;
+    gap: 10px;
+}
+.ok{
+    background-color: green;
+}
+#alink{
+    text-decoration: none;
+}
