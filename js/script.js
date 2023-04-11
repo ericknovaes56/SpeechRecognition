@@ -9,7 +9,7 @@ startBtn.addEventListener("click", ()=>{
     stopvoice.style.display='flex'
     const recognition = new webkitSpeechRecognition();
     recognition.interimResults = true;
-    recognition.lang = "pt-br";
+    recognition.lang = "en";
     recognition.continuous = true;
     recognition.start();
     recognition.onresult = function(event) {
